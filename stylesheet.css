@@ -1,95 +1,107 @@
 header {
-    border-bottom: 1px solid #C0C0C0;
-    margin-bottom: 15px;
-    overflow: auto;
-    background: #f2f2f2;
-    border-radius: 5px 5px 0 0;
+  border-bottom: 1px solid #c0c0c0;
+  margin-bottom: 15px;
+  overflow: auto;
+  background: #f2f2f2;
+  border-radius: 5px 5px 0 0;
 }
 
 .container {
-    padding: 3px;
+  padding: 3px;
 }
 
 #body {
-    border: 1px solid #C0C0C0;
-    border-radius: 5px;
-    width: 299px;
-    height: auto;
-    margin: 5% auto 15px auto;
-    background: #f9f9f9;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  width: 299px;
+  height: auto;
+  margin: 5% auto 15px auto;
+  background: #f9f9f9;
 }
 
 #title {
-    display: block;
-    text-align: center;
-    font-size: 18px;
-    margin: 7px 0;
-    color: #808080;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  margin: 7px 0;
+  color: #808080;
 }
 
-#screen {
-    border: 1px solid #D3D3D3;
-    border-radius: 2px;
-    margin: 0 17px 10px;
-    background: #fff;
-    padding: 10px;
-    height: 48px;
+#display {
+  border: 1px solid #d3d3d3;
+  border-radius: 2px;
+  margin: 0 17px 10px;
+  background: #fff;
+  padding: 10px;
+  height: 48px;
 }
 
-#screen span {
-    display: block;
-    line-height: 100%;
+#display span {
+  display: block;
+  line-height: 100%;
 }
 
 #math {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 #message {
-    font-size: 17px;
-    margin-top: 5px;
+  font-size: 17px;
+  margin-top: 5px;
 }
 
 #buttons {
-    margin: 0 12px 10px;
+  margin: 0 12px 10px;
 }
 
 #buttons button {
-    font-size: 14px;
-    margin: 5px 5px;
-    height: 40px;
-    width: 55px;
-    border-radius: 0;
-    border: 1px solid #D3D3D3;
-    border-radius: 2px;
-    background: #00FFFF; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#b2ffff, #00ffff); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#b2ffff, #00ffff); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#b2ffff, #00ffff); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#b2ffff, #00ffff); /* Standard syntax */
+  font-size: 14px;
+  margin: 5px 5px;
+  height: 40px;
+  width: 55px;
+  border-radius: 0;
+  border: 1px solid #d3d3d3;
+  border-radius: 2px;
+  background: #00ffff; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(
+    #b2ffff,
+    #00ffff
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#b2ffff, #00ffff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    #b2ffff,
+    #00ffff
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#b2ffff, #00ffff); /* Standard syntax */
 }
 
 #buttons button:hover {
-    border-color: #bdbdbd;
+  border-color: #bdbdbd;
 }
 
 #buttons button:focus {
-    outline: none;
+  outline: none;
 }
 
-#buttons #zero-button {
-    width: 124px;
+#buttons #zero {
+  width: 124px;
 }
 
-#buttons #equal-button {
-    height: 89px;
-    margin-top: -46px;
+#buttons #equals {
+  height: 89px;
+  margin-top: -46px;
 }
 
 #buttons .functional-button {
-    background: #DCDCDC; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#e2e2e2, #DCDCDC); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#e2e2e2, #DCDCDC); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#e2e2e2, #DCDCDC); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#e2e2e2, #DCDCDC); /* Standard syntax */
+  background: #dcdcdc; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(
+    #e2e2e2,
+    #dcdcdc
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#e2e2e2, #dcdcdc); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    #e2e2e2,
+    #dcdcdc
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#e2e2e2, #dcdcdc); /* Standard syntax */
 }
